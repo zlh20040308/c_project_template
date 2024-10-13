@@ -1,0 +1,41 @@
+# 忽略编译生成的文件
+*.o
+*.obj
+*.so
+*.exe
+*.out
+*.a
+*.dylib
+*.dll
+*.elf
+
+# 忽略调试和分析生成的文件
+*.d
+*.gch
+*.gcda
+*.gcno
+*.gcov
+
+# 忽略日志文件
+*.log
+
+# 忽略编译器生成的核心转储文件
+core
+*.core
+
+# 临时文件和备份文件
+*.swp
+*.swo
+*.tmp
+*.bak
+*~
+
+# 忽略构建目录
+.cache/
+build/
+bin/
+lib/
+
+# IDE 和编辑器配置文件
+.vscode/
+compile_commands.json
