@@ -43,4 +43,8 @@ clean:
 run: $(TARGET)
 	@./$(TARGET)
 
-.PHONY: all clean run
+# 格式化源代码
+format:
+	@find $(SRCDIR) -name "*.c" -o -name "*.h" | xargs clang-format -i
+
+.PHONY: all clean run format
